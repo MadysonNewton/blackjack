@@ -1,14 +1,28 @@
-let firstCard = 9
-let secondCard = 9
+let firstCard = 3
+let secondCard = 5
 let sum = firstCard + secondCard
-
-console.log(sum)
-//conditions are what go into the ()
-if (sum <= 20) {
-    console.log("Do you want to draw a new card?😊")
-} else if (sum === 21) {
-    console.log("Wohoo! You've got Blackjack!🥳")
-} else {
-    console.log("You're out of the game!😭")
+let hasBlackJack = false
+let isAlive = true
+let message = ""
+let messageEl = document.getElementById("message-el")
+let sumEl = document.getElementById("sum-el")
+let cardsEl = document.getElementById("cards-el")
+function startGame(){
+    if(sum <= 20){
+        message = "Would you like to draw again?"
+    }
+    else if (sum === 21){
+        message = "BLACKJACK!"
+        hasBlackJack = true
+    }
+    else if (sum > 21) {
+        message = "sorry,play again?"
+        isAlive = false
+    }
+    messageEl.textContent=message
+    sumEl.textContent= "Sum: "+sum
+    cardsEl.textContent = "Cards: " + firstCard + " " + secondCard
 }
-
+function newGame(){
+    console.log("Drawing a new Card from the deck!")
+}
