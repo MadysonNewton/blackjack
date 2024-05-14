@@ -206,5 +206,16 @@
 // let randomNumber = Math.random()
 
 // console.log(randomNumber)
+// selects a random number from 0 to 1 (not inclusive of 1)
 // Returns a pseudorandom number between 0 and 1.
 // let randomNumber = Math.random()
+
+
+// let flooredNumber = Math.floor(3.45632)
+// console.log(flooredNumber)
+// 5:35
+// function rollDice() {
+//     let randomNumber = Math.floor( Math.random() * 6 ) + 1;
+//     return randomNumber
+// }
+// console.log(rollDice())
