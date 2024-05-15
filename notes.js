@@ -219,3 +219,72 @@
 //     return randomNumber
 // }
 // console.log(rollDice())
+
+
+//logical and operator
+// let hasCompletedCourse = true
+// let givesCertificate = true
+
+// if (hasCompletedCourse === true && givesCertificate === true) {
+//     geenerateCertificate
+// }
+
+// let hasSolvedChallenge = false
+// let hasHintsLeft = false
+// // create an if statement that checks both variables are false.
+// //If so, run the showSolution() function
+
+// if (hasSolvedChallenge === false && hasHintsLeft === false) {
+//     showSolution() 
+// }
+
+// function showSolution() {
+//     console.log("Showing the solution...")
+// }
+
+// create two boolean variables, likesDocumentaries and likesStartups
+//use an Or statement (||) to call recommendMovie() if either of those variables are true
+
+// let likesDocumentaries = true
+// let likesStartups = false
+
+// if (likesDocumentaries === true || likesStartups === true) {
+//     recommendMovie()
+// }
+
+
+// function recommendMovie() {
+//     console.log("Hey, check out this new film we think you will like!")
+// }
+
+
+//objects - store data in-depth - composite / complex data type
+//key-value pairs
+
+// let course = {
+//     title: "Learned CSS Grid for free",
+//     lessons: 16,
+//     creator: "Per Harald Borgen",
+//     length: 63,
+//     level: 2,
+//     isFree: true,
+//     tags: ["html", "css"]
+// }
+// console.log(course.tags)
+
+
+//create an object that represents airbnb castle listing.
+// It should contain at least one boolean, one string, one number, and one array.
+// log out at least 2 keys using the dot notation.
+
+
+
+// if castle = {
+//     title: "Live like a king in my castle",
+//     price: 190,
+//     isSuperHost: true
+
+// }
+// console.log(castle.price)
+// console.log(castle.isSuperHost)
+
